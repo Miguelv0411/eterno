@@ -203,20 +203,34 @@
           Fusionamos estética editorial con la mejor tecnología de gestión de
           invitados. La carta de presentación perfecta para vuestro gran día.
         </p>
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
+        
+        <!-- Botones reorganizados -->
+        <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+          <!-- Botón Principal (Más grande) -->
           <a
             href="#contacto"
-            class="px-8 py-4 bg-white text-brand-dark font-semibold rounded-full hover:bg-brand-rose transition duration-300 shadow-lg transform hover:-translate-y-1"
+            class="px-10 py-6 bg-white text-brand-dark font-bold text-lg rounded-full hover:bg-brand-rose transition duration-300 shadow-lg transform hover:-translate-y-1 flex items-center justify-center min-w-[250px]"
           >
             Solicitar Presupuesto
           </a>
-          <a
-            href="https://boda-maria-y-david.netlify.app/"
-            target="_blank"
-            class="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white/10 transition duration-300"
-          >
-            Ver web ejemplo
-          </a>
+
+          <!-- Columna de Ejemplos (Apilados) -->
+          <div class="flex flex-col gap-3 w-full md:w-auto">
+            <a
+              href="https://boda-maria-y-david.netlify.app/"
+              target="_blank"
+              class="px-8 py-2 bg-transparent border border-white text-white font-medium rounded-full hover:bg-white/10 transition duration-300 text-center text-sm md:text-base min-w-[200px]"
+            >
+              Ver web ejemplo
+            </a>
+            <a
+              href="https://boda-maria-y-david.netlify.app/?admin=boda2025"
+              target="_blank"
+              class="px-8 py-2 bg-transparent border border-brand-gold text-white font-medium rounded-full hover:bg-brand-gold/20 transition duration-300 text-center text-sm md:text-base min-w-[200px]"
+            >
+              Ver panel ejemplo
+            </a>
+          </div>
         </div>
       </div>
 
